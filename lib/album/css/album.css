@@ -1,0 +1,15 @@
+﻿.photo_box{padding-top:1px;margin:0 auto;}
+.photo_box .photo_item{position:relative}
+.photo_area{width:100%;height:100%;overflow:hidden;position:relative}
+.photo_box ul{width:100%;height:100%;}
+.photo_toolbar{width:100%;text-align:center;margin:0 auto;position:absolute;bottom:20px;}
+.photo_toolbar a{display:inline-block;width:30px;height:30px;margin-right:8px;background:url('../img/changNum.png')  no-repeat;cursor:pointer;}
+.photo_toolbar a:hover,.photo_toolbar .current{background-position:bottom;}
+.photo_box .description{color:#FFFFFF;font-size:14px;line-height:1.8;padding-bottom:30px;margin:15px 0;}
+.photo_box .prev,.photo_box .next{height:99px;width:99px;display:block;background:url('../img/down_arrow.png')  bottom no-repeat;position:absolute;cursor:pointer;top:50%;margin-top:-50px;overflow:hidden;
+	transition:all .3s linear;-moz-transition:all .3s linear;-webkit-transition:all .3s linear;-o-transition:all .3s linear;border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px;-ms-border-radius:100px;}
+.photo_box .prev span,.photo_box .next span{background:url('../img/down_arrow_circle_border.png')  no-repeat;display:block;width:99px;height:99px;}
+.photo_box .prev{left:20px;-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.photo_box .next{right:20px;-moz-transform:rotate(-90deg); -webkit-transform:rotate(-90deg);}
+.photo_box .prev:hover{background-position:top;left:10px;}
+.photo_box .next:hover{background-position:top;right:10px;}

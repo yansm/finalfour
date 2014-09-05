@@ -1,0 +1,16 @@
+﻿/*
+ * 系统通用css
+ */
+i, em {font-style:normal;}
+ul {list-style:none; padding:0; margin:0;}
+mark {background:none;}
+@font-face { 
+  font-family: Jewel Hill; 
+  src: url('Jewel Hill.ttf'); 
+} 
+@font-face { 
+  font-family: American Scribe; 
+  src: url('American Scribe.ttf'); 
+} 
+
+
